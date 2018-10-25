@@ -1,2 +1,2 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/auth', { useMongoClient: true })
+mongoose.connect('mongodb://auth:auth@localhost:27017/auth', { useMongoClient: true })
